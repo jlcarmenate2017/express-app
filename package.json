@@ -1,7 +1,7 @@
 {
   "name": "express_app",
   "productName": "express_app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "App de Geopos Express",
   "main": ".vite/build/main.js",
   "scripts": {
