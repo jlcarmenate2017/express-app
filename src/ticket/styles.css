@@ -1,0 +1,138 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-panel {
+    background-color: #80756F;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-header {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    background-color: #80756F;
+}
+
+.ticket-body {
+    background-color: #9f9c9c;
+    width: 100%;
+    height: 80vh;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre cada item */
+    padding: 10px;
+}
+
+.item {
+    background-color: #80756F;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.item-details-header {
+    display: flex;
+    align-items: center;
+    height: 6vh;
+}
+.item-details-body {
+    height: 71vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+.item-details {
+    display: flex;
+    height: 7vh;
+    align-items: center;
+}
+
+.item-detail {
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    border-left: 1px solid #5e5b5b;
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.item-detail:first-child {
+    border-left: none;
+}
+
+.item-detail-description {
+    width: 60vw;
+}
+
+.item-detail-description-row {
+    width: 60vw;
+    text-align: left;
+    justify-content: left;
+}
+.item-detail-total {
+    margin-right: 5px;
+}
+.item-detail-unit-price, .item-detail-quantity, .item-detail-discount, .item-detail-total-row {
+    width: 10vw;
+}
+
+.ticket-footer {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #80756F;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.status-item {
+    width: 33.3vw;
+    font-size: x-large;
+    text-align: center;
+}
+
+.status-item .label {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.info-block {
+    width: 33.3vw;
+    font-size: x-large;
+    text-align: center;
+}
+
+.info-block .label {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.chain-logo {
+    width: 70px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
