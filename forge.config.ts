@@ -40,7 +40,7 @@ const config: ForgeConfig = {
           owner: 'jlcarmenate2017',
           name: 'express-app'
         },
-        prerelease: false,
+        prerelease: true,
         authToken: process.env.GH_TOKEN
       }
     }

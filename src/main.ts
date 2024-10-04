@@ -6,16 +6,15 @@ import {PrinterManager} from "./printer/printer-manager";
 import {Utils} from "./config/utils";
 import Socket from "./socket/socket";
 import WindowManager from "./windowManager";
-/*
+
 import { updateElectronApp, UpdateSourceType } from 'update-electron-app'
 updateElectronApp({
   updateSource: {
     type: UpdateSourceType.ElectronPublicUpdateService,
     repo: 'jlcarmenate2017/express-app'
   },
-  updateInterval: '1 hour',
   logger: require('electron-log')
-})*/
+})
 new Log();
 const utils = new Utils();
 const config = new Config(utils);
